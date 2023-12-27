@@ -9,7 +9,7 @@ Navbar
     transition: all .3s;
     z-index: 29;
     .container {
-        min-height: 4rem;
+        min-height: 6rem;
     }
     &.no-shadow {
         box-shadow: none !important;
@@ -23,8 +23,8 @@ Navbar
     .navbar-brand {
         min-height: 4rem;
         img {
-            max-height: 36px !important;
-            height: 36px;
+            max-height: 106px !important;
+            height: 106px;
         }
         //Removing navbar item default hover behaviour
         &:hover {
@@ -88,10 +88,9 @@ Navbar
         left: 0;
         width: 100%;
         min-height: 4rem !important;
-        background: $white;
+        background: $blue-grey;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
         a {
-            color: $blue-grey;
             &:hover {
                 color: $primary;
             }
