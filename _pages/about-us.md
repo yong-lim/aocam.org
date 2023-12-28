@@ -2,7 +2,7 @@
 layout: base
 permalink: /about-us
 ---
-<section class="section section-feature-grey is-medium">
+<section class="section section-feature-grey ">
   <div class="container">
     <h2 class="title is-3 aocam-blue">HELPING RURAL FAMILIES FOR OVER 25 YEARS</h2>
     <p>Operating since 1993, Asian Outreach Cambodia is a Christian international non- government organisation (INGO). Our vision is restoring hope and dignity to Cambodians by breaking the poverty cycle in rural communities. Our mission is to equip and empower these rural communities through training and resource development. AOC is locally run and operated, and we believe in the power of local people for a local vision; people who understand the needs and context of their country best.
