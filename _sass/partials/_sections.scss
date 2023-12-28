@@ -13,12 +13,14 @@ Section Styles
     &.section-secondary {
         background-color: $secondary;
     }
+    &.section-small {
+        height: 30vh !important;
+    }
     &.section-half {
         height: 75vh !important;
     }
     .title, .subtitle {
-        font-family: 'Noto Serif JP';
-
+        // font-family: 'Noto Serif JP';
     }
     .subtitle {
         &.is-muted {
