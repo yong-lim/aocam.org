@@ -21,6 +21,7 @@ Section Styles
     }
     .title, .subtitle {
         // font-family: 'Noto Serif JP';
+        font-family: 'Open Sans', sans-serif;
     }
     .subtitle {
         &.is-muted {
@@ -35,7 +36,7 @@ Section Styles
     margin: 0 auto;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
-        font-family: 'Libre Baskerville', serif;
+        // font-family: 'Libre Baskerville', serif;
     }
     .subtitle {
         &.is-muted {
