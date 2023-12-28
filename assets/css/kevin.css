@@ -234,3 +234,9 @@ nav a:focus {
   gap: 1rem;
 }
 
+.card a:hover,
+.card a:focus {
+  color: #00b5c8;
+  text-decoration: underline;
+}
+
