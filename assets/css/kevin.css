@@ -134,6 +134,15 @@ figure {
   color: rgb(117, 170, 57);
 }
 
+.aocam-blue {
+  color: #00b5c8;
+}
+
+.is-horizontal-center {
+  display: flex;
+  justify-content: center !important;
+}
+
 img {
   max-width: 100%;
   display: block;
