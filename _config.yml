@@ -8,6 +8,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
     
+include: ["_pages"]
+
 exclude:
   - LICENSE
   - README.md
