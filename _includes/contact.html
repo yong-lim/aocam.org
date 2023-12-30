@@ -11,16 +11,19 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form>
+          <form id="my-form" onsubmit="postAOCAM(event)">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Enter your Name">
+                <input name="entry.316818058" class="input is-medium" type="text" placeholder="Enter your Name">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Enter your Email">
+                <input name="entry.756253663" class="input is-medium" type="email" placeholder="Enter your Email">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="Write someting ..."></textarea>
+                <textarea name="entry.1760404173" class="textarea" rows="10" placeholder="Write someting ..."></textarea>
+              </div>
+              <div id="alert-field" class="alert is-hidden">
+                <p>Uh oh! Something went wrong!</p>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
