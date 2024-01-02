@@ -3,6 +3,9 @@ email:             info@aocam.org
 description: ""
 author: ""
 
+baseurl: ""
+url: ""
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
