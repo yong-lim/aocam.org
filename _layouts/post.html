@@ -6,11 +6,15 @@
   <body>
   {% include preloader.html %}
   {% include navi-menu.html %}
+  {% include banner.html %}
   
-  {% include contact.html %}
+  <section class="section section-feature-grey ">
+    <div class="container">
+    {{ content | markdownify }}
+    </div>
+  </section>
 
   {% include aocam-footer.html %}
-  {% include sidebar.html %}
   {% include scripts.html %}
   </body>
 </html>
