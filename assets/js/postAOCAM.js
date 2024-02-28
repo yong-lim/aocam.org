@@ -11,8 +11,7 @@ function formFocus() {
 function formReset() {
   $('#alert-field')
     .removeClass()
-    .html("<span><p>Thank you for dropping us a line . . .</p></span><br>")
-    .removeClass('is-hidden');
+    .html("<span><p>Thank you for dropping us a line . . .</p></span><br>");
   document.getElementById("formID").reset();
   setTimeout(() => {
     $('#alert-field').removeClass().addClass('is-hidden');
@@ -27,8 +26,7 @@ function postAOCAM(e) {
   console.log("in postAOCAM");
   $('#alert-field')
     .removeClass()
-    .html("<span><p>Please wait while we're sending your messgae . . .</p>  <progress></progress></span>")
-    .removeClass('is-hidden');
+    .html("<span><p>Please wait while we're sending your messgae . . .</p>  <progress></progress></span>");
 
   //AJAX request
   $.ajax({
