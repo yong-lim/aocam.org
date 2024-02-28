@@ -29,13 +29,11 @@ function postAOCAM(e) {
     .removeClass()
     .html("<span><p>Please wait while we're sending your messgae . . .</p>  <progress></progress></span>")
     .removeClass('is-hidden');
-  // console.log('start timer');
-  // setTimeout(() => {
-  //   console.log('This alert appeared after 3 second!'); }, 3000);
+
   //AJAX request
   $.ajax({
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfSSrMZh4gd_b-u08p0ZmWSzaLRlJfVobR8dRhHe4PlIAaEsw/formResponse',     
     //The public Google Form url, but replace /view with /formResponse
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfSSrMZh4gd_b-u08p0ZmWSzaLRlJfVobR8dRhHe4PlIAaEsw/formResponse',     
     data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
