@@ -11,13 +11,13 @@ function formFocus() {
 function formReset() {
   $('#alert-field')
     .removeClass()
-    .html("<span><p>Thank you for dropping us a line . . .</p></span>")
+    .html("<span><p>Thank you for dropping us a line . . .</p></span><br>")
     .removeClass('is-hidden');
-  document.getElementById("my-form").reset();
+  document.getElementById("formID").reset();
   setTimeout(() => {
     $('#alert-field').removeClass().addClass('is-hidden');
     // console.log('This alert appeared after 3 second!'); 
-  }, 3000);
+  }, 2000);
 }
 
 //selector from your HTML form
@@ -36,7 +36,7 @@ function postAOCAM(e) {
   $.ajax({
     url: 'https://docs.google.com/forms/d/e/1FAIpQLSfSSrMZh4gd_b-u08p0ZmWSzaLRlJfVobR8dRhHe4PlIAaEsw/formResponse',     
     //The public Google Form url, but replace /view with /formResponse
-    data: $('#my-form').serialize(), //Nifty jquery function that gets all the input data 
+    data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
     statusCode: { //the status code from the POST request
