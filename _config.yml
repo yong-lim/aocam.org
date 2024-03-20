@@ -1,5 +1,5 @@
-title:             Asian Outreach Cambodia
-email:             info@aocam.org
+title: "Asian Outreach Cambodia"
+email: "info@aocam.org"
 description: ""
 author: ""
 
@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-coffeescript
-    
+
 include: ["_pages"]
 
 exclude:
