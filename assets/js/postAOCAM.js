@@ -26,7 +26,7 @@ function postAOCAM(e) {
   console.log("in postAOCAM");
   $('#alert-field')
     .removeClass()
-    .html("<span><p>Please wait while we're sending your messgae . . .</p>  <progress></progress></span>");
+    .html("<span><p>Please wait while we're sending your message . . .</p>  <progress></progress></span>");
 
   //AJAX request
   $.ajax({
