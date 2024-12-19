@@ -1,7 +1,10 @@
-.DS_Store
-bower_components
-node_modules
-npm-debug.log
-_site
+**/.DS_Store
+_site/
 .sass-cache
-.jekyll-cache
+.jekyll-cache/
+.jekyll-metadata
+.bundle
+vendor/
+Gemfile.lock
+.DS_Store
+Thumbs.db
