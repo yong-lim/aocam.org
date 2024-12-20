@@ -1,0 +1,12 @@
+# no version needed since 2020
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    container_name: aocam
+    working_dir: /srv
+    volumes:
+      - .:/srv
+    ports:
+      - '5748:5748'
+      - '35748:35748'
+    command: bundle exec jekyll s --force_polling -H 0.0.0.0 -P 5748 -l --trace --livereload-port 35748
