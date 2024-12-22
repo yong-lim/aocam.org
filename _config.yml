@@ -9,15 +9,30 @@ url: ""
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-coffeescript
 
 include: ["_pages"]
-
-exclude:
-  - LICENSE
-  - README.md
 
 # Social Profiles
 twitter_username: ""
 github_username: ""
 facebook_username: ""
+
+exclude:
+  - LICENSE
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Icon
+  - docker-compose.yml
+
+# Default Markdown Engine
+markdown: kramdown
+
